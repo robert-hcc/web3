@@ -1,0 +1,21 @@
+
+      h1{
+        font-size: 45px;
+        text-align: center;
+        }
+      a {
+        color : red ; text-decoration:underline;
+        }
+      @media(min-width:800px)
+      {
+      #grid{
+        border:green 5px solid;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        }
+      div{
+        border: 3px blue solid;
+        padding:10px;
+        margin:5px;
+        }
+      }
